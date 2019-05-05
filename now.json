@@ -3,6 +3,6 @@
   "name": "unstack.dev",
   "alias": "unstack.dev.now.sh",
   "builds": [
-    { "src": "index.html", "use": "@now/html-minifier" }
+    { "src": "index.html", "use": "@now/static-build" }
   ]
 }
