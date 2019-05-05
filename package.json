@@ -6,9 +6,9 @@
   "author": "unStack DEV <unstackdev@gmail.com>",
   "license": "ISC",
    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-       "now-dev": "react-scripts start",
-       "now-build": "react-scripts build"
+      "test": "echo \"Error: no test specified\" && exit 1",
+       "now-dev": "",
+       "now-build": ""
     },
   "repository": {
     "type": "git",
