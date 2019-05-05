@@ -1,0 +1,20 @@
+{
+  "name": "unstack.dev",
+  "version": "1.0.0",
+   "main": "index.html",
+  "description": "Test.",
+  "author": "unStack DEV <unstackdev@gmail.com>",
+  "license": "ISC",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+       "now-dev": "react-scripts start",
+       "now-build": "react-scripts build"
+    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadalfy/simple-html-project.git"
+ },
+  "bugs": {
+      "url": "https://github.com/unStackOfficial/unstack.dev/issues"
+    },
+    "homepage": "https://github.com/unStackOfficial/unstack.dev"
