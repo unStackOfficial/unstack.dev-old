@@ -2,71 +2,14 @@
 
 [Master Stylesheet]
 
-Project:    	Logo -  HTML Template
-Version:    	1
-Last Change:    30/1/2018
-
-------------------------------------------
-
-[Table of contents]
-
-1. Fonts
-2. Resources / Css Files
-3. Reset
-4. Global Settings
-5. Buttons Style
-6. Social Icons
-7. Scroll To Top style
-8. Section Title
-9. Main Header / Two / Three
-10. Hidden Sidebar style
-11. Banner Section
-12. Banner Section Two
-13. Banner Section Three
-14. Features Section
-15. Features Section Two
-16. About Section
-17. About Events
-18. Events Section
-19. Event Highlight
-20. Pricing Section
-21. Speaker Section
-22. Speakers Section Two
-23. Speakers Section Three
-24. Speakers Section Four
-25. Schedule Section
-26. Topics Section
-27. Topics Section Two
-28. Event Venue Section
-29. Venue Gallery
-30. Fun Fact Section Two
-31. Project Section
-32. Testimonial Section
-33. Sponsors Section
-34. News Section
-35. Blog Single
-36. Shop Grid
-37. Shop Single
-38. Styled Pagination
-39. Location Section
-40. Location Section Two
-41. Contact Page Section
-42. Main Fotoer / Two / Three
-43. Sidebar Page Container
-44. Comment Area
-45. Comment Form
-46. Product Tabs Style
-47. Error Section
-48. Coming Soon
-49. Login Section
-50. Sign Up Section
-
--------------------------------------------*/
+Project:    	unStack.dev
+Version:    	1.0.0
+Last Change:    07/5/2019 
 
 /*** 
 
 ====================================================================
-	 Fonts
+	Fonts
 ====================================================================
 
  ***/
@@ -9196,4 +9139,65 @@ a.ui-button:active,
 	height: auto;
 }  
 
+.container1{
+    width:250px;
+    height:250px;
+    margin:20px auto 0 auto;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.spin-react-svg-logo{
+    display: inline-block;
+    border-radius:50%;
+    border:10px solid #00d8ff;
+
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+  }
+
+.spin-react-svg-logo , .spin-react-svg-logo:before , .spin-react-svg-logo:after{
+    position:absolute;
+    display: inline-block;
+    width:380px;
+    height:130px;
+    border-radius:50%;
+    border:15px solid #00d8ff;
+  }
+
+.dot , .spin-react-svg-logo , .spin-react-svg-logo:before , .spin-react-svg-logo:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.dot{
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    background:#00d8ff;
+  }
+
+.spin-react-svg-logo:before , .spin-react-svg-logo:after{
+    content:"";
+  }
+
+.spin-react-svg-logo:after{
+    transform:rotate(-57deg);
+  }
+
+.spin-react-svg-logo:before{
+    transform:rotate(57deg);
+  }
+
+@keyframes rotate{
+	100%{
+     transform:rotate(360deg);
+    }
+  }
 
