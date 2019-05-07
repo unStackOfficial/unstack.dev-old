@@ -9165,10 +9165,10 @@ a.ui-button:active,
 .spin-react-svg-logo , .spin-react-svg-logo:before , .spin-react-svg-logo:after{
     position:absolute;
     display: inline-block;
-    width:410px;
-    height:150px;
+    width:380px;
+    height:130px;
     border-radius:50%;
-    border:10px solid #00d8ff;
+    border:15px solid #00d8ff;
   }
 
 .dot , .spin-react-svg-logo , .spin-react-svg-logo:before , .spin-react-svg-logo:after {
@@ -9178,8 +9178,8 @@ a.ui-button:active,
   }
 
 .dot{
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     border-radius:100%;
     background:#00d8ff;
   }
