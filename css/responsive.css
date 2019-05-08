@@ -336,7 +336,7 @@
 
 	.main-menu .navigation > li:hover > a,
 	.main-menu .navigation > li.current > a{
-		color: #f20487;
+		color: #F79E01;
 	}
 
 	.banner-section-two{
@@ -623,8 +623,8 @@
 		padding: 0px;
 		text-align: center;
 		border-radius: 0px;
-		background: #f20487;
-		border: 1px solid #f20487;
+		background: #F79E01;
+		border: 1px solid #F79E01;
 	}
 	
 	.main-menu .navbar-header .navbar-toggler .icon-bar{
