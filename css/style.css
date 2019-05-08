@@ -7245,7 +7245,7 @@ a.ui-button:active,
 }
 
 .main-footer .social-links ul li a:hover{
-	color: #4125dd;
+	color: #F79E01;
 }
 
 .main-footer .footer-nav{
@@ -7344,7 +7344,7 @@ a.ui-button:active,
 }
 
 .main-footer.style-two .social-links ul li a:hover{
-	color: #4125dd;
+	color: #F79E01;
 }
 
 .main-footer.style-two .footer-bottom{
@@ -7458,7 +7458,7 @@ a.ui-button:active,
 }
 
 .main-footer.style-three .social-links ul li a:hover{
-	color: #4125dd;
+	color: #F79E01;
 }
 
 .main-footer .image-box{
@@ -7781,7 +7781,7 @@ a.ui-button:active,
 }
 
 .shop-sidebar .search-box .form-group input:focus{
-	border-color:#4125dd;	
+	border-color:#F79E01;	
 }
 
 .shop-sidebar .search-box .form-group input[type="submit"],
@@ -7808,7 +7808,7 @@ a.ui-button:active,
 
 .shop-sidebar .search-box .form-group input[type="submit"]:hover,
 .shop-sidebar .search-box .form-group button:hover{
-	color: #4125dd;
+	color: #F79E01;
 }
 
 /*Sidebar Range slider */
