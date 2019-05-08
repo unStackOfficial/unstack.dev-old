@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Developerayo",
+      "name": "Developerayo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20538832?v=4",
+      "profile": "http://www.shodipoayomide.com",
+      "contributions": [
+        "code",
+        "design",
+        "maintenance",
+        "eventOrganizing"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "unstack.dev",
+  "projectOwner": "unStackOfficial",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
