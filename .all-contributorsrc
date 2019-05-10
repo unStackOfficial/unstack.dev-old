@@ -16,6 +16,17 @@
         "maintenance",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "kingisaac95",
+      "name": "Orjiewuru Kingdom Isaac",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26261917?v=4",
+      "profile": "https://twitter.com/kingisaac95",
+      "contributions": [
+        "code",
+        "design",
+        "eventOrganizing"
+      ]
     }
   ],
   "contributorsPerLine": 7,
