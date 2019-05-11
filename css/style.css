@@ -627,7 +627,7 @@ img{
 
 .main-header .header-upper .logo-box .logo img{
 	display:inline-block;
-	max-width:100%;
+	width:200px;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
