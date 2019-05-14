@@ -9204,3 +9204,169 @@ a.ui-button:active,
     }
   }
 
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Poppins:800");
+.card {
+  padding: 13px;
+  max-width: 318px;
+  width: 100%;
+  background: #F79E01;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card__filter {
+  height: 212px;
+  margin-bottom: -60px;
+  overflow: hidden;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__filter::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  mix-blend-mode: multiply;
+  /*background: #F79E01;*/
+  z-index: 1;
+}
+.card__photo {
+  width: 100%;
+}
+.card__container {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.card h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 37px;
+  color: #405CD2;
+  letter-spacing: -1.06px;
+  margin: 0 0.4em 0.4em 0;
+}
+.card time, .card p, .card .card__location {
+  font-family: "IBM Plex Mono", sans-serif;
+  font-weight: regular;
+  font-size: 14px;
+  color: #535353;
+  margin: 0.18em;
+}
+.card__location {
+  text-decoration-color: #F79E01;
+  -webkit-text-decoration-color: #F79E01;
+  transition: all 250ms ease;
+  max-width: 13.3em;
+}
+.card__location:hover {
+  background-color: rgba(235, 14, 199, 0.2);
+  -webkit-text-decoration-color: rgba(235, 14, 199, 0.2);
+          text-decoration-color: rgba(235, 14, 199, 0.2);
+}
+.card__buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1.5em 0 0.5em 0;
+  flex-direction: row;
+}
+.card__buttons .btn {
+  font-family: "IBM Plex Mono", sans-serif;
+  font-weight: regular;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-align: center;
+  display: block;
+  flex: 1 1 100%;
+  color: #fff;
+  padding: 1em;
+}
+.card__buttons .btn:hover {
+  -webkit-animation: gradient 1.3s ease infinite;
+  animation: gradient 1.3s ease infinite;
+}
+.card__buttons .btn:hover i {
+  -webkit-animation: levitate 1.3s ease infinite;
+  animation: levitate 1.3s ease infinite;
+}
+.card__buttons .primary {
+  position: relative;
+  background-image: linear-gradient(to right, #F79E01, #F79E01);
+  background-size: 150% 150%;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+.card__buttons .secondary {
+  position: relative;
+  background-image: linear-gradient(to right, #F79E01, #F79E01);
+  background-size: 150% 150%;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-webkit-keyframes levitate {
+  0% {
+    padding-left: 0px;
+  }
+  50% {
+    padding-left: 5px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
+@keyframes levitate {
+  0% {
+    padding-left: 0px;
+  }
+  50% {
+    padding-left: 5px;
+  }
+  100% {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 400px) {
+  .fas {
+    display: none;
+  }
+
+  .card__buttons {
+    display: inline;
+  }
+}
