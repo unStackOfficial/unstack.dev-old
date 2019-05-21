@@ -6906,7 +6906,7 @@ a.ui-button:active,
 	position: relative;
 	height: 600px;
 	margin-top: -300px;
-	z-index: -1;
+	z-index: 0;
 }
 
 .location-section-two .map-canvas{
