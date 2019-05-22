@@ -1573,8 +1573,8 @@ img{
 
 .banner-section .content-box{
 	position:relative;
-	float: left;
-	width: 52%;
+	float: center;
+	width: 102%;
 }
 
 .banner-section .content-box h2{
