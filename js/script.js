@@ -366,7 +366,7 @@
 
 		const linebreak = '%0D%0A';
 
-		window.location.href = `mailto:unstack@gmail.com?subject=Contact Us&body=Hi, Unstack!${linebreak}${linebreak}Action required from @${email}.${linebreak}${linebreak}${message}${linebreak}${linebreak}Best regards,${linebreak}${name}`
+		window.location.href = `mailto:unstackdev@gmail.com?subject=Contact Us&body=Hi, Unstack!${linebreak}${linebreak}Action required from @${email}.${linebreak}${linebreak}${message}${linebreak}${linebreak}Best regards,${linebreak}${name}`
 	});
 
 
