@@ -1,0 +1,13 @@
+{
+  "name": "unStack",
+  "short_name": "unStack",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0C183D",
+  "icons": [
+    {
+      "src": "https://avatars2.githubusercontent.com/u/48751636?s=200&v=4"
+    }
+  ]
+}
