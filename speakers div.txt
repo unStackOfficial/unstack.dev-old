@@ -1,4 +1,4 @@
- <div class="row">
+                    <div class="row">
                     <!-- Feature Block -->
                     <div class="speaker-block-two col-lg-3 col-md-6 col-sm-12 wow zoomIn">
                         <div class="image-box">
@@ -7,7 +7,7 @@
                                 <a href="#popup_1" class="link view-speaker ts-image-popup" data-effect="mfp-zoom-in"><span class="flaticon-add-1"></span></a>
                                 <div class="info">
                                     <h5 class="name"><a href="#">Shaunta Deni</a></h5>
-                                    <span class="designation">General Manager</span>
+                                    <span clas2s="designation">General Manager</span>
                                 </div>
                             </div>
                         </div>
