@@ -5589,8 +5589,8 @@ img {
   position: relative;
   max-width: 100%;
   height: 80px;
-  opacity: 0.4;
-  transition: all 300ms ease;
+  opacity: 0.7;
+  transition: all 600ms ease;
 }
 
 .sponsor-section .client-logo .image:hover img {
@@ -5607,6 +5607,7 @@ img {
   line-height: 30px;
   font-weight: 600;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
 .sponsor-section.style-two .client-logo {
