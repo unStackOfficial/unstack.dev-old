@@ -3861,7 +3861,7 @@ img {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(75, 30, 206, 0.95);
+  background-color: rgba(54, 0, 214, 0.95);
   opacity: 0;
   visibility: hidden;
   text-align: left;
@@ -3873,7 +3873,7 @@ img {
 }
 
 .speaker-block-two .image-box:hover .overlay-box {
-  opacity: 1;
+  opacity: 0.70;
   visibility: visible;
 }
 
