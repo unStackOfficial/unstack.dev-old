@@ -651,6 +651,204 @@ img {
   transition: all 300ms ease;
 }
 
+.logo-box:hover{
+  animation: unstackayo linear 1s;
+  /* animation-iteration-count: infinite; */
+  transform-origin: 50% 50%;
+  -webkit-animation: unstackayo linear 1s;
+  /* -webkit-animation-iteration-count: infinite; */
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: unstackayo linear 1s;
+  /* -moz-animation-iteration-count: infinite; */
+  -moz-transform-origin: 50% 50%;
+  -o-animation: unstackayo linear 1s;
+  /* -o-animation-iteration-count: infinite; */
+  -o-transform-origin: 50% 50%;
+  -ms-animation: unstackayo linear 1s;
+  /* -ms-animation-iteration-count: infinite; */
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes unstackayo{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  10% {
+    transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    transform:  translate(10px,0px)  ;
+  }
+  30% {
+    transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    transform:  translate(10px,0px)  ;
+  }
+  50% {
+    transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    transform:  translate(10px,0px)  ;
+  }
+  70% {
+    transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    transform:  translate(10px,0px)  ;
+  }
+  90% {
+    transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes unstackayo{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes unstackayo {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes unstackayo {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -o-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -o-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes unstackayo {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+
 .main-header .header-upper .nav-outer {
   position: static;
   float: left;
@@ -3861,7 +4059,7 @@ img {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(75, 30, 206, 0.95);
+  background-color: rgba(54, 0, 214, 0.95);
   opacity: 0;
   visibility: hidden;
   text-align: left;
@@ -3873,7 +4071,7 @@ img {
 }
 
 .speaker-block-two .image-box:hover .overlay-box {
-  opacity: 1;
+  opacity: 0.70;
   visibility: visible;
 }
 
@@ -5589,8 +5787,8 @@ img {
   position: relative;
   max-width: 100%;
   height: 80px;
-  opacity: 0.4;
-  transition: all 300ms ease;
+  opacity: 0.7;
+  transition: all 600ms ease;
 }
 
 .sponsor-section .client-logo .image:hover img {
@@ -5607,6 +5805,7 @@ img {
   line-height: 30px;
   font-weight: 600;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
 .sponsor-section.style-two .client-logo {
