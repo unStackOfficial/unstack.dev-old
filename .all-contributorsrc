@@ -38,6 +38,15 @@
         "design",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "Quadriphobs1",
+      "name": "Quadri A. Adekunle",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20229808?v=4",
+      "profile": "https://about.me/quadriphobs/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
