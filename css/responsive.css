@@ -976,7 +976,7 @@
 	.main-footer.style-two .newsletter-form .form-group input[type="email"],
 	.main-footer .newsletter-form .form-group input[type="text"],
 	.main-footer .newsletter-form .form-group input[type="email"]{
-		padding: 15px 30px;
+		padding: 15px 30px !important;
 		line-height: 30px;
 		height: 60px;
 	}

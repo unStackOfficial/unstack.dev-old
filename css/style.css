@@ -2186,6 +2186,9 @@ img {
 .feature-block {
   position: relative;
   margin-bottom: 40px;
+  flex: 1;
+  display: flex;
+  align-items: stretch;
 }
 
 .feature-block .inner-box {
@@ -4068,6 +4071,7 @@ img {
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  border-radius: 15px;
 }
 
 .speaker-block-two .image-box:hover .overlay-box {
@@ -7450,6 +7454,7 @@ a.ui-button:active,
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  padding-right: 28%;
 }
 
 .main-footer .newsletter-form .form-group input[type="submit"],
@@ -7599,12 +7604,11 @@ a.ui-button:active,
 }
 
 .main-footer.style-two .copyright {
-  float: left;
   font-size: 18px;
   line-height: 30px;
   color: #4f4f4f;
   font-weight: 500;
-  margin-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .main-footer.style-two .footer-bottom ul {
