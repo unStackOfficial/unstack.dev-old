@@ -3,7 +3,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9331697e-50f5-4f70-8c9a-53469b5e2c2d/deploy-status)](https://app.netlify.com/sites/priceless-mirzakhani-3c02ae/deploys)
 
-## The Team
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
