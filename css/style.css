@@ -2544,7 +2544,7 @@ img {
 
 .about-carousel .slide-item .image-box img {
   display: block;
-  max-width: 100%;
+  max-width: 570px;
   height: auto;
   border-radius: 15px;
 }
