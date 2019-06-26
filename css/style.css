@@ -600,6 +600,7 @@ img {
 
 .main-header {
   position: fixed;
+  top: 0px;
   z-index: 999;
   width: 100%;
   -webkit-transition: all 300ms ease;
