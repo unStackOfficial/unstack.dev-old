@@ -1,0 +1,49 @@
+{
+  "name": "react-js-girls-conference",
+  "dependencies": {
+    "circular-std": "^1.0.0",
+    "gatsby": "^2.0.91",
+    "gatsby-image": "^2.0.34",
+    "gatsby-plugin-copy-files": "^1.0.1",
+    "gatsby-plugin-favicon": "^3.1.5",
+    "gatsby-plugin-google-analytics": "^2.0.9",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-react-svg": "^2.0.0",
+    "gatsby-plugin-sharp": "^2.0.29",
+    "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-plugin-svgr": "^2.0.1",
+    "gatsby-source-contentful": "^2.0.26",
+    "gatsby-source-filesystem": "^2.0.16",
+    "gatsby-transformer-remark": "^2.2.0",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "react": "^16.8.0-alpha.1",
+    "react-dom": "^16.8.0-alpha.1",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^5.2.0",
+    "react-markdown": "^4.0.6",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^4.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.3",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.15.3"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "test": "eslint . --cache --fix --ext .js",
+    "posttest": "npm run format",
+    "format": "prettier --write \"src/**/*.js\"",
+    "build": "gatsby build"
+  }
+}
